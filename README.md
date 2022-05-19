@@ -5,6 +5,7 @@
 ## 示例
 
 <img src="./src/img/example.png">
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
