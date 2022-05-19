@@ -1,11 +1,3 @@
-# set-gredient-color
-
-根据图片的颜色设置渐变背景色。超简单，源码有详细注释。
-
-## 示例
-
-<img src="./src/img/example.png">
-```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,17 +20,14 @@
             alt="">
 
     </div>
+    <script src="./index.js"></script>
+    <script>
+        let img1 = document.querySelector('#img1')
+        let img2 = document.querySelector('#img2')
 
+        setImgGredientColor(img1.src, "#container1")
+        setImgGredientColor(img2.src, "#container2")
+    </script>
 </body>
-<script src="./index.js"></script>
-<script>
-    let img1 = document.querySelector('#img1')
-    let img2 = document.querySelector('#img2')
-
-    setImgGredientColor(img1.src, "#container1")
-    setImgGredientColor(img2.src, "#container2")
-
-</script>
 
 </html>
-```
