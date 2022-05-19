@@ -10,7 +10,6 @@ function setImgGredientColor(imgSrc, targetSelector) {
     img.src = imgSrc
     img.crossOrigin = "Anonymous"
     if(img.complete){
-        console.log(11);
         callback()
     }else{
         img.onload = callback
